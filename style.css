@@ -217,7 +217,6 @@ nav{
     grid-template-columns: 1fr;
     grid-template-rows: 200px 220px;
     border: none;
-    height: fit-content;
 }
 
 #article1{
@@ -238,7 +237,6 @@ nav{
     grid-template-columns: 1fr;
     grid-template-rows: 200px 220px;
     border: none;
-    height: fit-content;
 }
 
 #article2{
@@ -299,7 +297,6 @@ nav{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px;
     border: none;
-    height: fit-content;
 }
 
 #article3{
@@ -719,7 +716,6 @@ nav{
     }
     .four{
         grid-area: 1/1/5/2;
-        height: fit-content;
     }
 
     #article1-cont,
@@ -754,7 +750,6 @@ nav{
 
     .five{
         grid-area: 5/1/9/2;
-        height: fit-content;
     }
 
     .six{
@@ -781,7 +776,6 @@ nav{
         grid-template-rows: 215px 210px;
         grid-template-columns: 1fr;
         align-content: normal;
-        height: fit-content;
     }
     #article3{
         border-radius: 5px 5px 0px 0px;
