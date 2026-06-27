@@ -573,6 +573,7 @@ nav{
 }
 
 .footer2{
+    width: 100%;
     border-top: 3px solid rgb(43, 54, 58);
     text-align: center;
 }
