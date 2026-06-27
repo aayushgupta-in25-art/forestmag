@@ -573,7 +573,6 @@ nav{
 }
 
 .footer2{
-    width: 100%;
     border-top: 3px solid rgb(43, 54, 58);
     text-align: center;
 }
@@ -589,7 +588,7 @@ nav{
 @media(max-width: 391px){
     .container{
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(91, 50px);
+        grid-template-rows: repeat(89, 50px);
         grid-gap: 0px;
         position: relative;
     }
@@ -707,7 +706,7 @@ nav{
     }
 
     #article-section{
-        /* grid-area: 6/1/44/2; */
+        grid-area: 6/1/44/2;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(18, 100px);
@@ -801,7 +800,7 @@ nav{
     }
 
     .nine{
-        grid-area: 80/1/91/2;
+        grid-area: 80/1/90/2;
         margin-top: 20px;
         justify-content: flex-start;
         flex-wrap: wrap;
