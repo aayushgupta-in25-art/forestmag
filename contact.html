@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="container3">
+        
+        <!-- header -->
+        
+        <div class="items one">
+            <img src="images/logo.png" alt="ForestMag logo" id="logo" height="60px" width="250px">
+            <div class="search">
+                <button class="searchcont" aria-label="Search">
+                    <input type="text" name="search" id="search" placeholder="search here..." aria-label="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- navbar -->
+
+        <div class="items two">
+            <nav>
+                <a href="index.html" class="headera">HOME</a>
+                <a href="about.html" class="headera">ABOUT US</a>
+                <a href="#article-section" class="headera">ARTICLE</a>
+                <a href="#gallery" class="headera">GALLERY</a>
+                <a href="#" class="headera">PHOTOGRAPHY</a>
+                <a href="#contact" class="headera">CONTACT</a>
+            </nav>
+        </div>
+        <div class="contact-hero" id="contact">
+            <h1>Contact Us</h1>
+            <hr style="width: 50px; margin: 0px 150px; background-color: rgb(142, 180, 91); border: 1px solid rgb(142, 180, 91); height: 1px;">
+            <p>We would love to hear from you! Whether you have a question, feedback, or just want to say hello, feel free to reach out.</p>
+        </div>
+
+        <!-- contact us -->
+
+        <!-- form -->
+
+        <div class="contact-form">
+            <div class="contact-form1">
+                <h1>🌿Send Us a Message</h1>
+                <hr style="width: 30px; border: 2px solid rgb(101, 148, 70); height: 2px; background-color: rgb(101, 148, 70); margin: 22px 20px ;">
+                <form action="submit" method="post" class="contact-form-tag">
+                   
+                    <div class="contact-input1">
+                        <div>
+                            <label for="name" style="color: black; font-size: 14px;">👤 Your Name</label><br>
+                            <input type="text" name="text" id="name" placeholder="👤 Enter your name" required>
+                        </div>
+                        <div>
+                            <label for="email" style="color: black; font-size: 14px;">✉️ Email Address</label><br>
+                            <input type="email" name="email" id="email" placeholder="✉️ Enter your email" required>
+                        </div>
+                    </div>
+
+                    <div class="contact-input2">
+                        <div>
+                            <label for="phone" style="color: black; font-size: 14px;">📞 Phone Number</label><br>
+                            <input type="number" name="number" id="phone" placeholder="☎️ Enter your phone number" maxlength="10" required>
+                        </div>
+                        <div>
+                            <label for="subject" style="color: black; font-size: 14px;">🏷️ Subject</label><br>
+                            <input type="text" name="subject" id="subject" placeholder="🏷️ Enter subject" required>
+                        </div>
+                    </div>
+
+                    <div class="contact-input3">
+                        <label for="message" style="color: black; font-size: 14px; margin: 5px 20px;">✏️ Your Message</label>
+                        <textarea name="text" id="message" rows="5" cols="20" placeholder="💬 Write your message here..."></textarea>
+                        <button id="form-btn">✈️ Submit Message</button>
+                    </div>
+                    
+                    <b id="formb">🔒 Your information is safe with us. We never share your data.</b>
+                </form>
+            </div>
+            <div class="contact-form2">
+                <h1>🌿 Get in Touch</h1>
+                <hr style="width: 30px; border: 2px solid rgb(101, 148, 70); height: 2px; background-color: rgb(101, 148, 70); margin: 22px 20px ;">
+                <p id="contact-form2-p">You can also contact us through the following channels.</p>
+                <div class="contact-form-location0">
+                    <div class="contact-form-location">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <b class="contact-form-location-b">Our Location</b>
+                            <p class="contact-form-location-p">B5, Mahal scheme road, Jagatpur, jaipur, 302017</p>
+                        </div>
+                    </div>
+
+                    <hr class="contact-form2-hr">
+
+                    <div class="contact-form-location">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div>
+                            <b class="contact-form-location-b">Email Us</b>
+                            <p class="contact-form-location-p">forestmag.natur@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <hr class="contact-form2-hr">
+
+                    <div class="contact-form-location">
+                        <div class="contact-icon">
+                            <a href="https://www.instagram.com/forest_mag_/"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div>
+                            <b class="contact-form-location-b">Instagram</b>
+                            <p class="contact-form-location-p">@forest_mag_</p>
+                        </div>
+                    </div>
+
+                    <hr class="contact-form2-hr">
+
+                    <div class="contact-form-location">
+                        <div class="contact-icon">
+                            <i class="fa-regular fa-clock"></i>
+                        </div>
+                        <div>
+                            <b class="contact-form-location-b">Working Hours</b>
+                            <p class="contact-form-location-p">Mon - Sat: 9:00 AM - 6:00 PM Sunday: Closed</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+
+        <div class="items contact-nine">
+            <div class="footer">
+                <div class="footerone">
+                    <img src="images/logo.png" alt="ForestMag logo" height="60px" width="250px">
+                    <p>
+                        A digital magazine dedicated to nature, travel, wildlife and inspiring stories from around the world.
+                    </p>
+                    <div class="footericons">
+                        <a href="https://www.instagram.com/forest_mag_/" target="_blank" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://x.com" aria-label="Twitter">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="footertwo">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="#article-section">Article</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#">Photography</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footerthree">
+                    <h4>Explore</h4>
+                    <a href="#">Nature</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Write For Us</a>
+                </div>
+                <div class="footerfour">
+                    <h4>Follow ForestMag</h4>
+                    <p>
+                        Follow us on Instagram for daily nature inspiration and travel stories.
+                    </p>
+                    <input type="text" name="text" placeholder="@yourusername" aria-label="Instagram Username">
+                    <button>Follow</button>
+                </div>
+            </div>
+            <div class="footer2">
+                <p>© 2026 ForestMag. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
