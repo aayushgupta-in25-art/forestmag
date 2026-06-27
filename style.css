@@ -575,6 +575,7 @@ nav{
 .footer2{
     border-top: 3px solid rgb(43, 54, 58);
     text-align: center;
+    width: 100%;
 }
 
 .footer2 p{
