@@ -707,7 +707,7 @@ nav{
     }
 
     #article-section{
-        grid-area: 6/1/44/2;
+        /* grid-area: 6/1/44/2; */
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(18, 100px);
