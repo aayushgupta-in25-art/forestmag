@@ -790,8 +790,8 @@ nav{
         grid-area: 44/1/55/2;
         grid-template-columns: 1fr;
         grid-template-rows: 20px repeat(8, 200px);
-        margin: 20px 30px;
-        padding: 0px;
+        margin: 0;
+        padding: 20px 30px;
         overflow: visible;
     }
     .dd0{
