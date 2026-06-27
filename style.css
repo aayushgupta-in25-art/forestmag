@@ -23,6 +23,7 @@ html,body{
 }
 
 .items{
+    width: 100%;
     border: 2px solid black;
 }
 
@@ -429,6 +430,7 @@ nav{
 /* footer main-page */
 
 .nine{
+    width: 100%;
     grid-area: 35/1/40/13;
     font-size: 25px;
     align-content: center;
@@ -801,6 +803,7 @@ nav{
     }
 
     .nine{
+        width: 100%;
         grid-area: 80/1/90/2;
         margin-top: 20px;
         justify-content: flex-start;
