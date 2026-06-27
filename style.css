@@ -23,6 +23,7 @@ html,body{
 }
 
 .items{
+    width: 100%;
     border: 2px solid black;
 }
 
@@ -429,6 +430,7 @@ nav{
 /* footer main-page */
 
 .nine{
+    width: 100%;
     grid-area: 35/1/40/13;
     font-size: 25px;
     align-content: center;
@@ -575,6 +577,7 @@ nav{
 .footer2{
     border-top: 3px solid rgb(43, 54, 58);
     text-align: center;
+    width: 100%;
 }
 
 .footer2 p{
@@ -800,6 +803,7 @@ nav{
     }
 
     .nine{
+        width: 100%;
         grid-area: 80/1/90/2;
         margin-top: 20px;
         justify-content: flex-start;
@@ -834,7 +838,7 @@ nav{
         margin-bottom: 50px;
     }
     .footer2{
-        width: 350px;
+        width: 100%;
         margin: 0px 20px;
     }
     .footer2 p{
