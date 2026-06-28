@@ -360,10 +360,9 @@ nav{
     grid-area: 25/1/35/13;
     display: grid ;
     grid-template: 20px 200px 200px / repeat(4, 1fr);
-    padding: 20px;
+    padding: 20px 50px; 
     grid-gap: 20px;
     border: none;
-    margin: 20px 50px;
     overflow: hidden;
 }
 
@@ -373,8 +372,8 @@ nav{
     font-size: 30px;
     display: flex;
     align-items: center;
-    : 'Times New Roman', Times, serif;
-    margin-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px auto;
 }
 
 .dd0 hr{
@@ -591,7 +590,7 @@ nav{
 @media(max-width: 480px){
     .container{
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(89, 50px);
+        grid-template-rows: repeat(91, 50px);
         grid-gap: 0px;
         position: relative;
     }
@@ -726,7 +725,6 @@ nav{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: ;
     }
 
     .artcont{
@@ -735,18 +733,19 @@ nav{
         display: block;
     }
     .arth3{
-        font-size: 1.7rem;
+        font-size: 1.4rem;
         padding: 2px 0px;
         text-align: center;
         width: 250px;
     }
     .artp{
-        font-size: 1rem;
+        font-size: 0.9rem;
         width: 250px;
         text-align: center;
         margin: 0px;
     }
     .artdate{
+        font-size: 1rem;
         padding: 4px 0px;
     }
 
@@ -795,7 +794,7 @@ nav{
         overflow: visible;
     }
     .dd0{
-        font-size: 23px;
+        font-size: 20px;
         grid-column: 1/2;
     }
     .dd0 hr{
@@ -804,7 +803,7 @@ nav{
 
     .nine{
         width: 100%;
-        grid-area: 80/1/90/2;
+        grid-area: 80/1/92/2;
         margin-top: 20px;
         justify-content: flex-start;
         flex-wrap: wrap;
@@ -815,7 +814,7 @@ nav{
         margin: 0px;
     }
     .footer hr{
-        width: 320px;
+        width: 80%;
         height: 3px;
         margin: 20px auto;
     }
@@ -835,11 +834,17 @@ nav{
     }
 
     .footerfour{
-        margin-bottom: 50px;
+        padding-bottom: 50px;
+    }
+    .footerfour input{
+        width: 70%;
+        padding: 9px 10px;
+    }
+    .footerfour button{
+        padding: 10px;
     }
     .footer2{
-        width: 100%;
-        margin: 0px 20px;
+        width: 90%;    
     }
     .footer2 p{
         font-size: 14px;
@@ -926,7 +931,7 @@ nav{
     margin-top: 10px;
 }
 
-#about-fourh1{
+#about-fourth1{
     font-size: 35px;
     margin-top: 10px;
 }
