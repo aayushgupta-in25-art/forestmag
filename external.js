@@ -1,29 +1,35 @@
-const hamburgericon = document.querySelector(".hamburger");
 const menu = document.querySelector(".two");
 const overlay = document.getElementById("background-overlay");
-const cross = document.querySelector(".cross-icon");
+const header = document.querySelectorAll(".headera");
 const body = document.body;
+// hamburger 
+const hamburger = document.getElementById("main");
+const mid = document.querySelector(".burger2");
+const first = document.querySelector(".burger1");
+const last = document.querySelector(".burger3");
 
-hamburgericon.addEventListener("click", () => {
+const toggleMenu = () => {
+    mid.classList.toggle("active");
+    first.classList.toggle("active");
+    last.classList.toggle("active");
     overlay.classList.toggle("active");
     menu.classList.toggle("active");
     body.classList.toggle("no-scroll");
-    hamburgericon.classList.add("active");
-    cross.classList.add("active");
-});
+}
 
-cross.addEventListener("click", () => {
-    cross.classList.toggle("active");
-    hamburgericon.classList.toggle("active");
-    overlay.classList.toggle("active");
-    menu.classList.toggle("active");
-    body.classList.toggle("no-scroll");
-});
+hamburger.addEventListener("click", toggleMenu);
 
-overlay.addEventListener("click", () => {
+const closeMenu = () => {
     overlay.classList.remove("active");
     menu.classList.remove("active");
     body.classList.remove("no-scroll");
-    cross.classList.remove("active");
-    hamburgericon.classList.remove("active");
-});
+    mid.classList.remove("active");
+    first.classList.remove("active");
+    last.classList.remove("active");
+}
+
+overlay.addEventListener("click", closeMenu);
+
+for(const link of header){
+    link.addEventListener("click", closeMenu);
+};
