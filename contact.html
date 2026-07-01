@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid Layout</title>
+    <title>Forestmag</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
@@ -12,19 +12,31 @@
         
         <!-- header -->
         
+        <div id="background-overlay"></div>
         <div class="items one">
-            <img src="images/logo.png" alt="ForestMag logo" id="logo" height="60px" width="250px">
+            <img src="images/logo.png" alt="ForestMag logo" id="logo" height="50px" width="240px">
             <div class="search">
                 <button class="searchcont" aria-label="Search">
-                    <input type="text" name="search" id="search" placeholder="search here..." aria-label="Search">
+                    <input type="text" name="search" class="search-input" placeholder="search here..." aria-label="Search">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
             </div>
+            <button id="main">
+                <span class="ham burger1"></span>
+                <span class="ham burger2"></span>
+                <span class="ham burger3"></span>
+            </button>
         </div>
 
         <!-- navbar -->
 
         <div class="items two">
+            <div class="search-2">
+                <button class="searchcont" aria-label="Search">
+                    <input type="text" name="search" class="search-input" placeholder="search here..." aria-label="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
             <nav>
                 <a href="index.html" class="headera">HOME</a>
                 <a href="about.html" class="headera">ABOUT US</a>
@@ -36,7 +48,7 @@
         </div>
         <div class="contact-hero" id="contact">
             <h1>Contact Us</h1>
-            <hr style="width: 50px; margin: 0px 150px; background-color: rgb(142, 180, 91); border: 1px solid rgb(142, 180, 91); height: 1px;">
+            <hr>
             <p>We would love to hear from you! Whether you have a question, feedback, or just want to say hello, feel free to reach out.</p>
         </div>
 
@@ -47,7 +59,7 @@
         <div class="contact-form">
             <div class="contact-form1">
                 <h1>🌿Send Us a Message</h1>
-                <hr style="width: 30px; border: 2px solid rgb(101, 148, 70); height: 2px; background-color: rgb(101, 148, 70); margin: 22px 20px ;">
+                <hr>
                 <form action="submit" method="post" class="contact-form-tag">
                    
                     <div class="contact-input1">
@@ -73,7 +85,7 @@
                     </div>
 
                     <div class="contact-input3">
-                        <label for="message" style="color: black; font-size: 14px; margin: 5px 20px;">✏️ Your Message</label>
+                        <label for="message" id="your-message">✏️ Your Message</label>
                         <textarea name="text" id="message" rows="5" cols="20" placeholder="💬 Write your message here..."></textarea>
                         <button id="form-btn">✈️ Submit Message</button>
                     </div>
@@ -83,7 +95,7 @@
             </div>
             <div class="contact-form2">
                 <h1>🌿 Get in Touch</h1>
-                <hr style="width: 30px; border: 2px solid rgb(101, 148, 70); height: 2px; background-color: rgb(101, 148, 70); margin: 22px 20px ;">
+                <hr id="contact-form2hr">
                 <p id="contact-form2-p">You can also contact us through the following channels.</p>
                 <div class="contact-form-location0">
                     <div class="contact-form-location">
@@ -167,8 +179,8 @@
                 <div class="footerthree">
                     <h4>Explore</h4>
                     <a href="#">Nature</a>
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms & Conditions</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="term&condition.html">Terms & Conditions</a>
                     <a href="#">Write For Us</a>
                 </div>
                 <div class="footerfour">
@@ -185,5 +197,6 @@
             </div>
         </div>
     </div>
+    <script src="external.js"></script>
 </body>
 </html>
