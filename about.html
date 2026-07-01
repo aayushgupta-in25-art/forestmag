@@ -3,24 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid Layout</title>
+    <title>Forestmag</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
     <div class="container2">
+
         <!-- header -->
+
+        <div id="background-overlay"></div>
         <div class="items one">
-            <img src="images/logo.png" alt="ForestMag logo" id="logo" height="60px" width="250px">
+            <img src="images/logo.png" alt="ForestMag logo" id="logo" height="50px" width="240px">
             <div class="search">
                 <button class="searchcont" aria-label="Search">
-                    <input type="text" name="search" id="search" placeholder="search here..." aria-label="Search">
+                    <input type="text" name="search" class="search-input" placeholder="search here..." aria-label="Search">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
             </div>
+            <button id="main">
+                <span class="ham burger1"></span>
+                <span class="ham burger2"></span>
+                <span class="ham burger3"></span>
+            </button>
         </div>
+
         <!-- navbar -->
+         
         <div class="items two">
+            <div class="search-2">
+                <button class="searchcont" aria-label="Search">
+                    <input type="text" name="search" class="search-input" placeholder="search here..." aria-label="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
             <nav>
                 <a href="index.html" class="headera">HOME</a>
                 <a href="#about-us" class="headera">ABOUT US</a>
@@ -35,10 +51,10 @@
 
         <!-- hero-section -->
         <div class="about-three" id="about-us">
-            <div>
+            <div class="about-three1">
                 <b id="about-herob">🌿 About Us</b>
                 <h1 id="about-heroh1">Our Passion. Our Purpose. Our <span style="color: rgb(114, 151, 57);">Planet.</span></h1>
-                <hr style="width: 50px; height: 1px; border: 1px solid rgb(114, 151, 57); margin: 10px 20px 10px 150px;">
+                <hr>
                 <p id="about-herop">
                     At ForestMag. we believe in the power of nature to inspire, heal, and bring people together. We are
                     here to celebrate the beauty of forests, wildiife, and natural landscapes.
@@ -121,33 +137,33 @@
 
             <div class="about-sixrow-one">
                 <div id="about-sixrow1"></div>
-                <div id="about-sixrow2">
+                <div class="about-sixrow2">
                     <b class="sixrowb">Nature Articles</b>
-                    <p style="margin: 10px 10px 10px 25px; font-family: 'Times New Roman', Times, serif; font-size: 14px; width: 190px;">In-depth articles on forests, wildlife, conservation, and natural wonders.</p>
+                    <p class="sixrowp">In-depth articles on forests, wildlife, conservation, and natural wonders.</p>
                 </div>
             </div>
 
             <div class="about-sixrow-two">
                 <div id="about-sixrow-two1"></div>
-                <div id="about-sixrow-two2">
+                <div class="about-sixrow-two2">
                     <b class="sixrowb">Travel Guides</b>
-                    <P style="margin: 10px 10px 10px 25px; font-family: 'Times New Roman', Times, serif; font-size: 14px; width: 190px;">Detailed travel guides to help you explore the best natural destinations.</P>
+                    <P class="sixrowp">Detailed travel guides to help you explore the best natural destinations.</P>
                 </div>
             </div>
 
             <div class="about-sixrow-three">
                 <div id="about-sixrow-three1"></div>
-                <div id="about-sixrow-three2">
+                <div class="about-sixrow-three2">
                     <b class="sixrowb">Wildlife stories</b>
-                    <p style="margin: 10px 10px 10px 25px; font-family: 'Times New Roman', Times, serif; font-size: 14px; width: 190px;">Stories and insights about amazing wildlife and their natural habitats.</p>
+                    <p class="sixrowp">Stories and insights about amazing wildlife and their natural habitats.</p>
                 </div>
             </div>
 
             <div class="about-sixrow-four">
                 <div id="about-sixrow-four1"></div>
-                <div id="about-sixrow-four2">
+                <div class="about-sixrow-four2">
                     <b class="sixrowb">Photography Tips</b>
-                    <p style="margin: 10px 10px 10px 25px; font-family: 'Times New Roman', Times, serif; font-size: 14px; width: 190px;">Tips and tutorials for capturing stunning nature and landscape photography.</p>
+                    <p class="sixrowp        ">Tips and tutorials for capturing stunning nature and landscape photography.</p>
                 </div>
             </div>
             
@@ -238,8 +254,8 @@
                 <div class="footerthree">
                     <h4>Explore</h4>
                     <a href="#">Nature</a>
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms & Conditions</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="term&condition.html">Terms & Conditions</a>
                     <a href="#">Write For Us</a>
                 </div>
                 <div class="footerfour">
@@ -256,5 +272,6 @@
             </div>
         </div>
     </div>
+    <script src="external.js"></script>
 </body>
 </html>
